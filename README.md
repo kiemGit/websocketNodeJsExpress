@@ -25,7 +25,7 @@
 	}
  
 # install:
-  + install nodejs centos 7, ref keyword: install nodejs centos 7
+  + install nodejs centos 7, ref keyword: [install nodejs centos 7, in http://192.168.0.22:8765/search] 
   + npm init
   + npm install --save express
   + npm install --save ws
