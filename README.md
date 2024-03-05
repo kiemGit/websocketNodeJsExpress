@@ -43,4 +43,7 @@ ref: https://www.pubnub.com/blog/nodejs-websocket-programming-examples/
 	+ open terminal
 	+ type $node index.js
 
+# sample send data from browser
+![Screenshot]() # ex: ![Screenshot](sample.png)
+
   
