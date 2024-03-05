@@ -25,16 +25,22 @@
 	}
  
 # install:
-  + install nodejs centos 7, ref keyword: [install nodejs centos 7, in http://192.168.0.22:8765/search] 
-  + npm init
-  + npm install --save express
-  + npm install --save ws
-  + if error solution error message: "npm install hangs on 'sill idealTree buildDeps'"
-  + ref: https://bobbyhadz.com/blog/npm-install-sill-idealtree-builddeps
-  + firewall-cmd --add-port=8000/tcp --permanent
-  + firewall-cmd --add-port=443/tcp --permanent
-  + firewall-cmd --reload
-  + firewall-cmd --list-all
+	  + install nodejs centos 7, ref keyword: [install nodejs centos 7, in http://192.168.0.22:8765/search] 
+	  + npm init
+	  + npm install --save express
+	  + npm install --save ws
+	  + if error solution error message: "npm install hangs on 'sill idealTree buildDeps'"
+	  + ref: https://bobbyhadz.com/blog/npm-install-sill-idealtree-builddeps
+	  + firewall-cmd --add-port=8000/tcp --permanent
+	  + firewall-cmd --add-port=443/tcp --permanent
+	  + firewall-cmd --reload
+	  + firewall-cmd --list-all
 
 # ref
 ref: https://www.pubnub.com/blog/nodejs-websocket-programming-examples/
+
+# start websocket server
+	+ open terminal
+	+ type $node index.js
+
+  
